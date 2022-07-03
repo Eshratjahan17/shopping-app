@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 117px;
+  margin-right: 101px;
+  margin-top: 34.17px;
+  margin-bottom: 32.82px;
+}
+.dollar {
+  width: 29px;
+  height: 20px;
+}
+.downArrow {
+  width: 28px;
+  height: 10px;
+}
+.cart {
+  width: 29px;
+  height: 20px;
+}
