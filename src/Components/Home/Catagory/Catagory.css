@@ -1,11 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-left: 117px;
   margin-right: 101px;
   margin-top: 34.17px;
   margin-bottom: 32.82px;
+  font-family: "Raleway", sans-serif;
+}
+
+.all-catagory-link {
+  text-decoration: none;
+  margin-right: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.all-catagory-link:hover {
+  color: #5ece7b;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5ece7b;
+  line-height: 32px;
+}
+.tech-link {
+  text-decoration: none;
+  margin-right: 32px;
+  color: black;
+}
+.tech-link:hover {
+  color: #5ece7b;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5ece7b;
+  line-height: 32px;
+}
+.cloth-link {
+  text-decoration: none;
+  margin-right: 32px;
+  color: black;
+}
+.cloth-link:hover {
+  color: #5ece7b;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5ece7b;
+  line-height: 32px;
 }
 .dollar {
   width: 29px;
@@ -18,4 +60,8 @@
 .cart {
   width: 29px;
   height: 20px;
+}
+.shopping-bag {
+  width: 31px;
+  height: 28px;
 }

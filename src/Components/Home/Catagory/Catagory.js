@@ -2,20 +2,27 @@ import { Link } from "react-router-dom";
 import cart from "../../../images/icons/cart.svg";
 import dollar from "../../../images/icons/Dollar.svg";
 import downArrow from "../../../images/icons/downArrow.svg";
+import shoppingBag from "../../../images/icons/shoppingBag.svg";
 import './Catagory.css';
 const Catagory = () => {
   return (
     <div>
       <nav className="navbar">
-        <ul>
-          <Link to="/allproducts">All Catagory</Link>
-          <Link to="/tech">Tech</Link>
-          <Link to="/cloths">Cloths</Link>
+        <ul className="links">
+          <Link className="all-catagory-link" to="/allproducts">
+            All Catagory
+          </Link>
+
+          <Link className="tech-link" to="/tech">
+            Tech
+          </Link>
+          <Link className="cloth-link" to="/cloths">
+            Cloths
+          </Link>
         </ul>
-        <ul>
-          <div>
-            <img src="" alt="" />
-          </div>
+        <img className="shopping-bag" src={shoppingBag} alt="" />
+
+        <ul className="icons">
           <div>
             <Link to="/tech">
               <img className="dollar" src={dollar} alt="" />
