@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import cart from "../../../images/icons/cart.svg";
-import dollar from "../../../images/icons/Dollar.svg";
-import downArrow from "../../../images/icons/downArrow.svg";
-import shoppingBag from "../../../images/icons/shoppingBag.svg";
-import './Catagory.css';
+import cart from "../../images/icons/cart.svg";
+import dollar from "../../images/icons/Dollar.svg";
+import downArrow from "../../images/icons/downArrow.svg";
+import shoppingBag from "../../images/icons/shoppingBag.svg";
+import './Navbar.css';
 const Catagory = () => {
   return (
     <div>
@@ -34,6 +34,9 @@ const Catagory = () => {
           </div>
         </ul>
       </nav>
+      <section>
+        
+      </section>
     </div>
   );
 };

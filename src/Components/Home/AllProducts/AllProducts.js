@@ -1,8 +1,13 @@
-
+import './AllProducts.css';
 const AllProducts = () => {
   return (
     <div>
-      <h1>This is all catagory page</h1>
+      <header>
+        <h1>All Catagory</h1>
+      </header>
+      <div>
+
+      </div>
     </div>
   );
 };
