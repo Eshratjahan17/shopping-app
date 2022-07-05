@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@mixin linksHover {
+  color: #5ece7b;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5ece7b;
+  line-height: 32px;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -17,59 +25,38 @@
   color: black;
   margin-bottom: 20px;
 }
-
 .all-catagory-link:hover {
-  color: #5ece7b;
-  font-weight: 700;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #5ece7b;
-  line-height: 32px;
+  @include linksHover();
 }
-
 .tech-link {
   text-decoration: none;
   margin-right: 32px;
   color: black;
 }
-
 .tech-link:hover {
-  color: #5ece7b;
-  font-weight: 700;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #5ece7b;
-  line-height: 32px;
+  @include linksHover();
 }
-
 .cloth-link {
   text-decoration: none;
   margin-right: 32px;
   color: black;
 }
-
 .cloth-link:hover {
-  color: #5ece7b;
-  font-weight: 700;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #5ece7b;
-  line-height: 32px;
+  @include linksHover();
 }
-
 .dollar {
   width: 29px;
   height: 20px;
 }
-
 .downArrow {
   width: 28px;
   height: 10px;
 }
-
 .cart {
   width: 29px;
   height: 20px;
 }
-
 .shopping-bag {
   width: 31px;
   height: 28px;
-}/*# sourceMappingURL=Catagory.css.map */
+}
